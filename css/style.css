@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b4d0e6;
+} 
+ */
+
+
+/* header */
+#intestazione{
+    background-color: #ffff;
+    display: flex;
+    padding: 22px 25px 22px 20px;
+    justify-content:space-between;
+    box-shadow:2px #d1dae1;
+}
+
+#intestazione div{
+    display: flex;
+}
+
+#intestazione ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+#intestazione li a{
+    color: #000;
+    text-decoration: none;
+}
+#intestazione li a:hover{
+    color: blue;
+}
+
+
+
