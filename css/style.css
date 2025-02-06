@@ -54,6 +54,9 @@ h1 {
     padding: 22px 25px 22px 20px;
     justify-content: space-between;
     box-shadow: 0 1px 3px 0px #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 #intestazione div {
