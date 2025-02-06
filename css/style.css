@@ -16,7 +16,7 @@
     display: flex;
     padding: 22px 25px 22px 20px;
     justify-content:space-between;
-    box-shadow:2px #d1dae1;
+    box-shadow: 0 1px 3px 0px #ddd;
 }
 #intestazione div{
     display: flex;
@@ -44,14 +44,71 @@
 #intestazione li a:hover{
     border-bottom: 2px solid #000;
 }
+
+
+
+/* stili comuni */
 .btn{
+    all:unset;
     background-color: #0061fe;
     color: #ffff;
     padding:  11px 17px 11px;
+    
 } 
 .btn:hover{
-    background-color: green;
+    filter: brightness(1.4);
 }
+
+.container{
+    width: 1176px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    display: block;
+}
+h1{
+    font-size: 80px;
+    margin-bottom: 55px;
+}
+
+
+
+/* main */
+
+#jumbotron{
+    background-color: #b4d0e6;
+}
+#jumbotron .informazioni{
+    display: flex;
+}
+.colonna-sinistra{
+    width: 30%;
+}
+.colonna-destra{
+    width: 70%;
+}
+#jumbotron .container{
+    position: relative;
+    top: 100px;
+}
+#jumbotron p{
+    padding-bottom: 35px;
+    font-size: 15px;
+}
+#jumbotron .gratuita{
+    margin-bottom: 35px;
+}
+#jumbotron i{
+    color: #000;
+    font-size: 50px;
+}
+
+
+
+
+
+
 
 
 
