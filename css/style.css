@@ -266,8 +266,12 @@ main{
 .contenuti-colonna-base div{
     margin-bottom: 60px;
 }
-.ufficio{
-    padding: 15px 10px;
+.content-left{
+    width: 70%;
+}
+.content-right{
+    width: 30%;
+    text-align: right;
 }
 
 /* immagine e testo */
