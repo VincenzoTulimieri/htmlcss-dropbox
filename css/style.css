@@ -207,6 +207,7 @@ main{
 
 .contenuti-colonna h3 {
     margin-bottom: 25px;
+    font-size: 25px;
 }
 
 .contenuti-colonna strong {
@@ -262,6 +263,7 @@ main{
 }
 .contenuti-colonna-base h3{
     margin-bottom: 20px;
+    font-size: 25px;
 }
 .contenuti-colonna-base div{
     margin-bottom: 60px;
